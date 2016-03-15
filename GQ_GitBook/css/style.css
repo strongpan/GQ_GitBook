@@ -33,8 +33,11 @@ img{
     margin-top: 3px;
     margin-right: 8px;
 }
-h1{
+#titlename h1{
     float:right;
+    margin-top: 3px;
+    color: #333;
+    letter-spacing: 0.3px;
 }
 
 #titlelist{
@@ -47,26 +50,46 @@ h1{
 
 .btn{
     padding: 6px 12px;
-    margin: 2px 4px;
+    margin: 3px 4px;
 
     font-size: 14px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
+    letter-spacing: 0.3px;
+
+    height: 20px;
 }
 
 .btn-signin{
     border: 1px solid #c9c9c9;
     background: linear-gradient(#fcfcfc,#ededed);
+
 }
 
 
 /*registerarea code*/
-#registerarea{
+
+#reg-up{
+    text-align: center;
+}
+
+#reg-bottom{
 
 }
 
+#reg-bottom-left{
+    width: 254px;
+    height: 340px;
+}
 
+#reg-bottom-mid{
 
+}
+
+#reg-bottom-right{
+    width: 254px;
+    height: 200px;
+}
 
 /*layout code*/
 #wrapper{
@@ -82,14 +105,14 @@ h1{
     padding-left: 15px;
     padding-right: 15px;
 
-    margin-left: 63.5px;
-    margin-right: 63.5px;
+    margin-left: 112px;
+    margin-right: 112px;
 }
 
 #registerarea{
 
     height: 488px;
-    background: darkgray;
+    background: rgb(245,245,245);
     padding-top: 60px;
     padding-bottom: 110px;
 }
