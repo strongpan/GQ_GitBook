@@ -13,13 +13,17 @@
         <div id="titlearea">
 
             <div id="titlename">
-                <a href="https://www.gitbook.com">
-                    <img src="img/128.png" alt="logo"> <h1> GitBook</h1>
+
+                <!--<a href="https://www.gitbook.com">-->
+                    <!--<img id="tit-img" src="img/128.png" alt="logo"> <h1 id="tit-txt">GitBook</h1>-->
+                <!--</a>-->
+                <a id="tit-link" href="https://www.gitbook.com">
+                    <h1 id="tit-txt">GitBook</h1>
                 </a>
             </div>
 
             <div id="titlelist">
-                <a href="#" class="btn pullright btn-signin"> SIGN IN</a>
+                <a href="http://strongpan.github.io" target="_blank" class="btn pullright btn-signin"> SIGN IN</a>
 
                 <a href="#" class="btn pullright"> BLOG</a>
 
@@ -28,6 +32,8 @@
                 <a href="#" class="btn pullright"> PRICING</a>
 
             </div>
+
+            <div class="clear"></div>
 
         </div>
 
@@ -39,23 +45,33 @@
             </div>
 
             <div id="reg-bottom">
-                <div id="reg-bottom-left">
-                    <img src="img/robot.png" alt="">
+
+                <div >
+                    <img id="reg-bottom-left" src="img/robot.png" alt="">
                 </div>
 
                 <div id="reg-bottom-mid">
 
-                    <input type="text">
-                    <input type="text">
-                    <input type="password">
-                    <p>or login with your  account</p>
-                    <button type="submit"></button>
+                    <form action="" class="form-vertical">
 
-                    <p>By clicking "Sign up for GitBook", you agree to our terms of service and privacy policy. We will send you account related emails occasionally.</p>
+                        <input class="input-mid input-name" type="text" placeholder="Pick up a name">
+                        <input class="input-mid input-email" type="text" placeholder="Your email address">
+                        <input class="input-mid input-pswd" type="password" placeholder="Create a password">
+
+                        <p class="login-txt">
+                            <a href="#">or login with your <b id="login-brand">GitHub</b> account</a>
+                        </p>
+
+                        <button class="sub-button" type="submit">Sign up for GitBook</button>
+
+                        <p class="help-p">By clicking "Sign up for GitBook", you agree to our terms of service and privacy policy. We will send you account related emails occasionally.</p>
+
+                    </form>
+
                 </div>
 
-                <div id="reg-bottom-right">
-                    <img src="img/book.png" alt="">
+                <div >
+                    <img id="reg-bottom-right" src="img/book.png" alt="">
                 </div>
                     
             </div>
@@ -65,7 +81,14 @@
 
 
 
-        <div id="newinfoarea">newinfoarea</div>
+        <div id="newinfoarea">
+
+            <span class="label">NEW</span>
+            Editor: Conflict resolution UI
+            <a id="new-more" href="https://www.gitbook.com/blog/features/merge-conflicts">Learn more</a>
+
+        </div>
+
         <div id="featurearea">featurearea</div>
         <hr>
         <div id="productarea">productarea</div>
